@@ -35,3 +35,11 @@ Para executar
 ```
 bash install.sh
 ```
+## API
+### Chave da API
+Obter API key no Google AI Studio
+https://aistudio.google.com/app/api-keys
+Adicionar nas variável de ambiente com:
+```
+export GEMINI_API_KEY="SUA_CHAVE_AQUI"
+```
