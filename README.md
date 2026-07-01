@@ -18,3 +18,20 @@ source venv/bin/activate
 python -m venv venv
 venv\Scripts\activate.ps1
 ```
+## Instalar dependências
+### Linux
+Dê permissão
+```
+chmod +x install.sh
+```
+Para executar
+```
+./install.sh
+```
+### Windows
+- Precisará rodar isso através do Git Bash (que costuma vir instalado junto com o Git)
+- Clique com o botão direito na pasta do projeto e selecione "Open Git Bash here"
+- Para executar
+```
+bash install.sh
+```
