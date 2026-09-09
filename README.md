@@ -28,6 +28,11 @@ Para executar
 ```
 ./install.sh
 ```
+> [!NOTE]
+> Se seu Python for da versão 3.9 ou anterior e não conseguir baixar o google-genai, use isso:
+```
+pip install google-generativeai
+```
 ### Windows
 - Precisará rodar isso através do Git Bash (que costuma vir instalado junto com o Git)
 - Clique com o botão direito na pasta do projeto e selecione "Open Git Bash here"
