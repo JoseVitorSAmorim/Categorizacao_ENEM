@@ -60,7 +60,7 @@ fi
 # 4. Instalar Dependências Python (Bibliotecas)
 echo "-> Instalando pacotes Python..."
 # google-genai já está aqui! Adicionei o python-dotenv para garantir a leitura do seu arquivo .env
-$PYTHON_CMD -m pip install pytesseract google-genai opencv-python python-dotenv
+$PYTHON_CMD -m pip install pytesseract opencv-python python-dotenv google-genai
 
 echo "============================================================"
 echo " Processo finalizado!"
